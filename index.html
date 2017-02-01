@@ -19,79 +19,6 @@
   <script type="text/javascript" src="/js/windowsphone.js"></script>
  </head>
 <body id="tabs-0" class="windowsphone">
-
- <div id="fb-root"></div>
- <script type="text/javascript">
-  
-   window.fbAsyncInit = function() {
-     FB.init({
-       appId      : '199110156832898', // App ID
-       channelURL : '//www.burgerking.hu/channel.html', // Channel File
-       status     : true, // check login status
-       cookie     : true, // enable cookies to allow the server to access the session
-       oauth      : true, // enable OAuth 2.0
-       xfbml      : true  // parse XFBML
-     });
-
-     // Additional initialization code here
-   };
-
-   // Load the SDK Asynchronously
-   (function(d){
-     var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
-     js = d.createElement('script'); js.id = id; js.async = true;
-     js.src = "//connect.facebook.net/hu_HU/all.js";
-     d.getElementsByTagName('head')[0].appendChild(js);
-   }(document));
-  
- </script>
- <script type="text/javascript">
-  
-   (function(d, s, id) {
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/hu_HU/all.js#xfbml=1&appId=199110156832898";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-  
- </script>
-
- <div id="search-overlay" style="display: none;">
-  <div style="height: 70px;">
-   <img src="/img/active-search.png" alt="" style="float: left; margin-top: 15px; cursor: pointer;" class="return_to_page" />
-   <img src="/img/logo-small.png" alt="" style="float: right; cursor: pointer;" class="return_to_page" />
-   <script type="text/javascript">
-    
-     $(".return_to_page").click(function(){
-        $("#search-overlay").hide();
-     });
-    
-   </script>
-   <div class="clear"></div>
-  </div>
-  <div class="sep"></div>
-  <form method="get" action="/search/">
-   <input type="text" name="q" placeholder="Keresés..." />
-  </form>
- </div>
-
-                     
-                    
-                    
-            
-
-        
-    
- <div id="overlay" onclick="$('#mobile-menu').hide(200);$('#overlay').fadeOut(200);"></div>
-
-  <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>BURGER KING® Gyorsétterem, Éttermek, Kínálat, Kuponok, WHOPPER®</title>
-</head>
-<body>
 	<div class="wphone">
 		<div class="coupon-slider">
 							<div data-code="K0129">
@@ -181,4 +108,4 @@
 </body>
 </html>
   </body>
-</html>
+</html>
